@@ -7,7 +7,8 @@
 [![Architecture](https://img.shields.io/badge/Architected%20by-XyzTech-9370DB?style=for-the-badge)](https://github.com/mruniquehacker)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-<img src="utils/bot_image.jpg" alt="Wukong-MD" width="260">
+<!-- Wukong Identity -->
+<img src="utils/wukong.jpg" alt="Wukong-MD" width="300">
 
 </div>
 
