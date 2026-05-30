@@ -37,13 +37,15 @@
 </div>
 
 ### 2. Obtain Your Session
-Deploy the helper to generate a **pair code** and obtain your session string.
-<div align="center">
-<a href="https://knight-bot-paircode.onrender.com/" target="_blank">
-  <img src="https://img.shields.io/badge/Generate-Pair%20Code-blueviolet?style=for-the-badge" alt="Generate Pair Code">
-</a>
-</div>
+To obtain your unique **Wukong-MD** session string, generate it locally to ensure compatibility with your deployment:
 
-Copy the resulting session string into `config.js`:
+1. **Clone your repository** to your local machine or Termux environment.
+2. **Install dependencies** by running `npm install` in your terminal.
+3. **Start the bot locally** using `node index.js`.
+4. **Link your account** when prompted in the terminal by scanning the pairing code with your WhatsApp "Linked Devices" menu.
+5. **Copy the generated session string** (formatted as `WukongMD!...`) displayed in your terminal.
+
+### 3. Final Configuration
+Paste your unique session string into your `config.js` or your Render Environment Variables:
 ```js
-sessionID: 'WukongMD!H4.....'
+sessionID: 'WukongMD!YourUniqueStringHere'
