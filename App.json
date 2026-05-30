@@ -1,0 +1,28 @@
+{
+  "name": "Wukong-MD",
+  "description": "A powerful WhatsApp MD bot (Baileys) architected by XyzTech, featuring the spirit of the Great Sage.",
+  "repository": "",
+  "keywords": ["whatsapp", "baileys", "bot", "node", "wukong-md", "xyztech"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "env": {
+    "SESSION_ID": {
+      "description": "Wukong-MD session string (e.g. KnightBot!<base64_compressed_data>)",
+      "required": false,
+      "value": ""
+    },
+    "BOT_NAME": {
+      "description": "The name of your bot",
+      "required": false,
+      "value": "Wukong-MD"
+    },
+    "OWNER_NAME": {
+      "description": "The name of the bot architect",
+      "required": false,
+      "value": "XyzTech"
+    }
+  }
+}
