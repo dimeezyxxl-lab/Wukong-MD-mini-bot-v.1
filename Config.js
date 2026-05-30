@@ -11,7 +11,9 @@ module.exports = {
     // 🤖 BOT SYSTEM SETUP
     botName: 'Wukong-MD',
     prefix: '.',
-    sessionName: 'session',
+    // Changed to 'celestial_vault' to match the Render Disk Mount Path
+    sessionName: 'celestial_vault', 
+    
     // Keep this empty or use env variable for security!
     sessionID: process.env.SESSION_ID || '', 
     newsletterJid: '', 
